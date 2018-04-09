@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrays - Color Swatches</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="controls">
+        <div id="myInputs">
+            <input type="range" id="redRange" value="0" min="0" max="255">
+            <input type="range" id="greenRange" value="0" min="0" max="255">
+            <input type="range" id="blueRange" value="0" min="0" max="255">
+        </div>
+        <div id="previewBox" class="boxes"></div>
+        <button id="addColor">+</button>
+        <button id="shiftColor">shift</button>
+        <button id="popColor">pop</button>
+        <button id="spliceColor">splice</button>
+        <input type="number" value="0" min="0" id="spliceIndex" />
+        <div id="averageBox" class="boxes"></div>
+        <div id="mixBox" class="boxes"></div>
+    </div>
+    <div id="display"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
